@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.25,
-          "width": 0.825
+          "drill": 0.762,
+          "height": 1.524,
+          "width": 1.524
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -51,42 +51,8 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
-      ],
-      "drc_exclusions": [
-        "clearance|64200000|61312500|aaaa6a2e-bdc2-4db0-afda-8c2c3f2fdbfc|d7757684-0a5a-47bf-bd75-5fa17f519548",
-        "clearance|64200000|61687500|ed7afc94-6e44-4b3a-95ae-9e7ad873bab1|d7757684-0a5a-47bf-bd75-5fa17f519548",
-        "clearance|64200000|62187500|c01ff134-02f2-440e-9140-e27acaf3441b|d7757684-0a5a-47bf-bd75-5fa17f519548",
-        "clearance|64200000|63187500|72dab932-f533-4324-accb-420e87c5aa1a|d7757684-0a5a-47bf-bd75-5fa17f519548",
-        "clearance|65800000|61250000|c33f8eb1-2d3f-4c25-813e-9c7890b4437f|d7757684-0a5a-47bf-bd75-5fa17f519548",
-        "clearance|65800000|61687500|a7167a88-d487-4ab7-b0d3-c2f9bf516164|d7757684-0a5a-47bf-bd75-5fa17f519548",
-        "clearance|65800000|62187500|0043d45e-2e86-431e-a76e-0572d0d52c76|d7757684-0a5a-47bf-bd75-5fa17f519548",
-        "clearance|65800000|62687500|076d3859-2bb4-4bed-884f-70322290790b|d7757684-0a5a-47bf-bd75-5fa17f519548",
-        "clearance|65800000|63187500|6abbd0e4-8968-4a2f-b5fc-d6b46f804b38|d7757684-0a5a-47bf-bd75-5fa17f519548",
-        "clearance|65800000|63687500|0e62d1e3-8ff7-4557-a156-d3030b60d551|d7757684-0a5a-47bf-bd75-5fa17f519548",
-        "copper_edge_clearance|52860000|73750000|4f6a5589-c385-44e3-9649-8f7cad484203|d6619779-6a0b-463f-a2db-15395e8f2383",
-        "copper_edge_clearance|55400000|73750000|4f6a5589-c385-44e3-9649-8f7cad484203|c2d855ed-f01b-409b-b231-6fe8cb9baec8",
-        "copper_edge_clearance|57940000|73750000|4f6a5589-c385-44e3-9649-8f7cad484203|cab16627-5f6c-4a83-9380-389769f2cfa4",
-        "copper_edge_clearance|90960000|73750000|4f6a5589-c385-44e3-9649-8f7cad484203|e08c2c0b-1571-4986-b886-559fca388477",
-        "copper_edge_clearance|93500000|73750000|4f6a5589-c385-44e3-9649-8f7cad484203|83efeb8c-27c9-4300-84ab-9e202009c4a9",
-        "copper_edge_clearance|96040000|73750000|4f6a5589-c385-44e3-9649-8f7cad484203|60ea3193-3c04-4d27-a42c-5a8f47699246",
-        "courtyards_overlap|84539999|51200001|21f2e859-8692-49ae-a3bc-374482130c25|823bce0e-8066-4585-9b57-374182f636bd",
-        "courtyards_overlap|84539999|67300001|2411d811-ee73-4a5a-ba54-c3ac623db51b|c6509a89-7b1f-4350-a67e-4994cb33768c",
-        "lib_footprint_mismatch|55900000|72012500|e0d04c5a-2d85-4b3a-a2f2-574d8d46f6d9|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|82890000|52000000|823bce0e-8066-4585-9b57-374182f636bd|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|82890000|68100000|2411d811-ee73-4a5a-ba54-c3ac623db51b|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|94000000|72012500|e5c1c180-d050-43e7-84ac-bc14ee3a1e3d|00000000-0000-0000-0000-000000000000",
-        "silk_over_copper|81901314|51370000|b1084363-8725-4a32-9d84-f03ffff1cee4|00000000-0000-0000-0000-000000000000",
-        "silk_over_copper|82743923|67470000|7f4725a3-4dc5-402f-a32c-9c05361fbde9|00000000-0000-0000-0000-000000000000",
-        "silk_overlap|79260000|72538152|77c39b2e-a351-4c86-8549-0b09aacbafcb|0d632579-4957-496f-97a6-555784d67e9c",
-        "silk_overlap|79260000|72538152|77c39b2e-a351-4c86-8549-0b09aacbafcb|1a6d31c1-f69b-4d3b-b4d6-315c37c90e49",
-        "silk_overlap|89161905|69452219|f33cb86f-a578-4b3a-af0d-82ea94ac84c6|739631d3-5e4f-4155-b2a3-f8abebe3edc3"
-      ],
+      "diff_pair_dimensions": [],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -205,12 +171,7 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [
-        0.0,
-        0.25,
-        0.5,
-        0.75
-      ],
+      "track_widths": [],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -237,12 +198,7 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        }
-      ],
+      "via_dimensions": [],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -475,7 +431,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "r1283_power.kicad_pro",
+    "filename": "tssop_breakout.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -496,23 +452,6 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.25,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "power",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.75,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
-        "wire_width": 6
       }
     ],
     "meta": {
@@ -520,28 +459,7 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": [
-      {
-        "netclass": "power",
-        "pattern": "+3V3"
-      },
-      {
-        "netclass": "power",
-        "pattern": "GND*"
-      },
-      {
-        "netclass": "power",
-        "pattern": "+5V"
-      },
-      {
-        "netclass": "power",
-        "pattern": "/Lx*"
-      },
-      {
-        "netclass": "power",
-        "pattern": "/V*"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
@@ -609,35 +527,11 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Device",
-          "name": "Sim.Device",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "",
+      "name": "Grouped By Value",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -669,14 +563,6 @@
       "version": 1
     },
     "net_format_name": "",
-    "ngspice": {
-      "fix_include_paths": true,
-      "meta": {
-        "version": 0
-      },
-      "model_mode": 4,
-      "workbook_filename": ""
-    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
@@ -690,7 +576,7 @@
   },
   "sheets": [
     [
-      "76ca39b7-78f6-4b03-a33d-7b6f25c599d4",
+      "ba17f64b-2a4a-4571-844b-85d9a3a87470",
       "Root"
     ]
   ],
